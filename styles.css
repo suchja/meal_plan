@@ -1,11 +1,4 @@
 
-
-.list{
-    top: 30;
-    right: 40%;
-    left: 20%;
-}
-
 #body-background {
     background-image: linear-gradient(to right, #e0d2f9, #b29fd2);
 }
@@ -36,6 +29,7 @@ body {
 header {
     background-color: #d0b6fc;
     padding: 50px;
+    top: 0;
     text-align: center;
     color: white;
 }
