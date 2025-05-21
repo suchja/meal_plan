@@ -21,7 +21,7 @@
         const ul = document.getElementById('meal-list'); 
         data.forEach((meal, index) => {
           const li = document.createElement('li');       
-          li.textContent = `Day ${index + 1}: ${meal}`;   
+          li.innerHTML = `<span class="day-label">Day ${index + 1}:</span> ${meal}`;   
           ul.appendChild(li);                             
     });
   });
