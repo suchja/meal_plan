@@ -5,7 +5,8 @@ meals = [
     "Kartoffelpüree mit Erbsen, Mören und Ei", "Risi Bisi", "Tacos", "Shakshuka", "Nudeln mit Soße",
     "Pizza", "Erbsensuppe", "Burger", "Bulgurauflauf", "Linsensuppe", "Tomatenreis", "Curry mit Reis/Couscous",
     "Bretonische Bohnensuppe", "Oliven-Feta-Knödel", "Mie-Nudeln mit Gemüse", "Kartoffelsalat", "Gurkensuppe",
-    "Gazpacho"
+    "Gazpacho", "Bärlauch/Basilikum Klöße mit Tomatensoße", "Haloumni Omelett", "Ofengemüse", "Kartoffelgratin",
+    "Pellkartoffeln mit Quark"
 ]
 
 
