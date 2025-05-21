@@ -1,5 +1,3 @@
-
-
 name: Generate Weekly Meal Plan
 
 on:
@@ -11,26 +9,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-  contents: write
-
+      contents: write  # <-- properly indented
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-    - name: Run Python script
-      run: |
-        python generate_meal_plan.py
+      - name: Run Python script
+        run: |
+          python generate_meal_plan.py
 
-    - name: Commit and push
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add meal_plan.json
-        git commit -m "Weekly meal plan update" || echo "No changes to commit"
-        git push
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add meal_plan.json
+          git commit -m "Weekly meal plan update" || echo "No changes to commit"
+          git push
