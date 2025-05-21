@@ -16,13 +16,13 @@
   
     <script> 
     fetch('meal_plan.json')
-  .then(response => response.json())
-  .then(data => {
-    const ul = document.getElementById('meal-list'); 
-    data.forEach((meal, index) => {
-      const li = document.createElement('li');       
-      li.textContent = `Day ${index + 1}: ${meal}`;   
-      ul.appendChild(li);                             
+      .then(response => response.json())
+      .then(data => {
+        const ul = document.getElementById('meal-list'); 
+        data.forEach((meal, index) => {
+          const li = document.createElement('li');       
+          li.textContent = `Day ${index + 1}: ${meal}`;   
+          ul.appendChild(li);                             
     });
   });
     </script>
