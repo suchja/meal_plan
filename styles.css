@@ -28,11 +28,6 @@ body {
 header {
     background-color: #d0b6fc;
     padding: 50px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
     text-align: center;
     color: white;
 }
