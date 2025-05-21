@@ -6,7 +6,11 @@
 
 .headline{
     font-family: 'Noto Sans', sans-serif;
-    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     top: 0;
     right: 40%;
     width: 20%;
