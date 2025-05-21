@@ -15,6 +15,9 @@
     background-image: linear-gradient(to right, #e0d2f9, #b29fd2);
 }
 
+.day-lable{
+    color: ##8003E2;
+}
 
 .headline{
     font-family: 'Noto Sans', sans-serif;
