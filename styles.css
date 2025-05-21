@@ -28,9 +28,6 @@ body {
 header {
     background-color: #d0b6fc;
     padding: 50px;
-    top: 0;
-    right: 0;
-    left: 0;
     justify-content: center;
     align-items: center;
     display: flex;
