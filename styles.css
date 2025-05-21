@@ -1,7 +1,4 @@
-.header{
-    font-family: 'Noto Sans', sans-serif;
-    color: mediumpurple;
-}
+
 
 .list{
     top: 30;
@@ -42,7 +39,4 @@ header {
     text-align: center;
     color: white;
 }
-nav {
-    margin: 10px 0;
-    text-align: center;
-}
+
